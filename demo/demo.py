@@ -8,7 +8,7 @@ from magic_pdf.config.enums import SupportedPdfParseMethod
 
 # args
 __dir__ = os.path.dirname(os.path.abspath(__file__))
-pdf_file_name = os.path.join(__dir__, "pdfs", "demo1.pdf")  # replace with the real pdf path
+pdf_file_name = os.path.join(__dir__, "pdfs", "1516-199 部分乘用车减征车辆购置税.pdf")  # replace with the real pdf path
 name_without_extension = os.path.basename(pdf_file_name).split('.')[0]
 
 # prepare env
